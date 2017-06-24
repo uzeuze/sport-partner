@@ -1,4 +1,10 @@
 .FindPeopleTo {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.FindPeopleTo__text {
+  font-size: 30px;
+  color: #333;
 }

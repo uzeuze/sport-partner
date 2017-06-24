@@ -20,7 +20,7 @@
 
 #LandingNavbar.LandingNavbar--scrolled .LandingNavbar__brand,
 #LandingNavbar.LandingNavbar--scrolled .LandingNavbar__NavItem a {
-  color: #1B5E20;
+  color: #00a94f;
 }
 
 #LandingNavbar .LandingNavbar__brand--partner {
@@ -47,7 +47,7 @@
 }
 
 #LandingNavbar.LandingNavbar--scrolled .LandingNavbar__NavItem a::after {
-  background-color: #1B5E20;
+  background-color: #00a94f;
   height: 3px;
 }
 
@@ -57,7 +57,7 @@
 
 #LandingNavbar .LandingNavbar__Button a {
   padding: 12px 15px;
-  background-color: #1B5E20;
+  background-color: #00a94f;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -66,11 +66,11 @@
 
 #LandingNavbar .LandingNavbar__Button a:hover {
   background-color: #fff;
-  color: #1B5E20;
+  color: #00a94f;
 }
 
 #LandingNavbar.LandingNavbar--scrolled .LandingNavbar__Button a:hover {
-  border: 1px solid #1B5E20;
+  border: 1px solid #00a94f;
 }
 
 #LandingNavbar .navbar-toggle {
@@ -89,5 +89,5 @@
 }
 
 #LandingNavbar.LandingNavbar--scrolled .navbar-toggle .icon-bar {
-  background-color: #1B5E20;
+  background-color: #00a94f;
 }

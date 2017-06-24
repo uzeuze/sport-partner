@@ -1,9 +1,18 @@
+.TypeWriter {
+  font-size: 30px;
+  color: #00a94f;
+}
+
 .TypeWriter__cursor--flashing {
   animation: blink-animation 1s step-start 0.3s infinite;
 }
 
+.TypeWriter__cursor {
+
+}
+
 @keyframes blink-animation {
   50% {
-    opacity: 0.0;
+    opacity: 0;
   }
 }

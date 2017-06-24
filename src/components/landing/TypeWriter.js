@@ -39,7 +39,7 @@ export default class TypeWriter extends Component {
           )
         });
       }
-    }, 5000);
+    }, 2500);
     this.setState((state, props) => {
       timeouts: state.timeouts.push(to);
     })
@@ -90,7 +90,12 @@ export default class TypeWriter extends Component {
     return (
       <span className="TypeWriter">
         {currentText}
-        <span className={isCursorFlashing ? "TypeWriter__cursor TypeWriter__cursor--flashing" : "TypeWriter__cursor"}>_</span>
+        <span
+          className={isCursorFlashing ?
+            "TypeWriter__cursor TypeWriter__cursor--flashing"
+            :
+            "TypeWriter__cursor"}>_
+        </span>
       </span>
     );
   }

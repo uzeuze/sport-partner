@@ -15,7 +15,7 @@ export default class FindPeopleTo extends Component {
     ];
     return (
       <section className='FindPeopleTo'>
-        <p>Easily find people in your area for {' '}
+        <p className='FindPeopleTo__text'>Easily find people in your area for {' '}
           <TypeWriter data={sports} />
         </p>
       </section>
