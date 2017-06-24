@@ -1,0 +1,9 @@
+.TypeWriter__cursor--flashing {
+  animation: blink-animation 1s step-start 0.3s infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: 0.0;
+  }
+}
