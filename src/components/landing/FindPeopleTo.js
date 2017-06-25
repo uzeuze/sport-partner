@@ -19,6 +19,7 @@ export default class FindPeopleTo extends Component {
           <TypeWriter data={sports} />
         </p>
       </section>
+
     );
   }
 }

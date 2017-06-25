@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Hero from './Hero';
 import LandingNavbar from './LandingNavbar';
 import FindPeopleTo from './FindPeopleTo';
+import HowItWorks from './HowItWorks';
 
 class Landing extends Component {
   constructor(props) {
@@ -35,16 +36,7 @@ class Landing extends Component {
         <LandingNavbar scrolled={this.state.scrolled} />
         <Hero />
         <FindPeopleTo />
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima id laboriosam commodi mollitia quas voluptatem ex iusto, corrupti nihil deserunt, pariatur velit. Quaerat laborum sequi, numquam vero consequuntur tenetur. Eum?</p>
-
-        </div>
+        <HowItWorks />
       </div>
     );
   }
