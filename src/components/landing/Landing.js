@@ -3,6 +3,7 @@ import Hero from './Hero';
 import LandingNavbar from './LandingNavbar';
 import FindPeopleTo from './FindPeopleTo';
 import HowItWorks from './HowItWorks';
+import Features from './Features';
 
 class Landing extends Component {
   constructor(props) {
@@ -37,6 +38,7 @@ class Landing extends Component {
         <Hero />
         <FindPeopleTo />
         <HowItWorks />
+        <Features />
       </div>
     );
   }

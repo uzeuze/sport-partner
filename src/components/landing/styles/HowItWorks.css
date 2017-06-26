@@ -1,4 +1,21 @@
 .HowItWorks {
-  background-color: #f67c1a;
-  height: 600px;
+  background-color: #b76e15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.HowItWorks__title {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.HowItWorks__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 860px;
 }

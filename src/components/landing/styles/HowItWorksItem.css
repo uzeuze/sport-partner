@@ -1,0 +1,23 @@
+.HowItWorksItem {
+  max-width: 210px;
+}
+
+.HowItWorksItem__icon {
+  height: 64px;
+  width: 64px;
+}
+
+.HowItWorksItem__title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.HowItWorksItem__text {
+  font-size: 15px;
+  font-weight: 200;
+  color: #fff;
+  margin-top: 8px;
+}

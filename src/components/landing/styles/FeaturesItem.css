@@ -1,0 +1,28 @@
+.FeaturesItem {
+  display: flex;
+  flex-direction: row;
+  padding-top: 90px;
+}
+
+.FeaturesItem--reverse {
+  flex-direction: row-reverse;
+}
+
+.FeaturesItem__image {
+  width: 420px;
+  height: 100%;
+}
+
+.FeaturesItem__textContent  {
+  margin-left: 100px;
+}
+
+.FeaturesItem--reverse .FeaturesItem__textContent {
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+.FeaturesItem__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}

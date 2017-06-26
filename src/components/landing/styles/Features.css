@@ -1,0 +1,10 @@
+.Features {
+  background-color: #fff;
+  padding-bottom: 90px;
+}
+
+.Features__content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
