@@ -16,6 +16,7 @@
 
 .Hero__content {
   text-align: center;
+  max-width: 90%;
 }
 
 .Hero__title {
@@ -49,4 +50,14 @@
 
 .Hero__button:focus {
   outline: 0;
+}
+
+@media all and (max-width: 479px) {
+  .Hero__title {
+    font-size: 34px;
+    line-height: 35px;
+  }
+  .Hero__subtitle {
+    font-size: 20px;
+  }
 }

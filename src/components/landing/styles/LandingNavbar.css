@@ -93,3 +93,15 @@
 #LandingNavbar.LandingNavbar--scrolled .navbar-toggle .icon-bar {
   background-color: #00a94f;
 }
+
+@media all and (max-width: 479px) {
+  #LandingNavbar {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #LandingNavbar .LandingNavbar__brand {
+    font-size: 20px;
+    padding-top: 18px;
+  }
+}

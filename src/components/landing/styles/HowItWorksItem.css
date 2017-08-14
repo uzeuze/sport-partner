@@ -1,5 +1,6 @@
 .HowItWorksItem {
   max-width: 210px;
+  margin: 0 auto;
 }
 
 .HowItWorksItem__icon {
@@ -20,4 +21,10 @@
   font-weight: 200;
   color: #fff;
   margin-top: 8px;
+}
+
+@media all and (max-width: 767px) {
+  .HowItWorksItem {
+    margin-bottom: 50px;
+  }
 }

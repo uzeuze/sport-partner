@@ -8,26 +8,26 @@ import GetBetter from '../../assets/features-get-better.jpeg';
 class Features extends Component {
   render() {
     return (
-      <section className='Features'>
-        <div className='Features__content'>
+      <section className="Features">
+        <div className="Features__content">
           <FeaturesItem
             image={Free}
-            alt='Completely free'
-            title='Completely free'
-            text='We do not charge any intermediary costs to bring sportive people together!'
+            alt="Completely free"
+            title="Completely free"
+            text="We do not charge any intermediary costs to bring sportive people together!"
           />
           <FeaturesItem
             image={Connected}
-            alt='Get connected'
-            title='Get connected'
-            text='Meet new people in your area to have fun and challenge.'
+            alt="Get connected"
+            title="Get connected"
+            text="Meet new people in your area to have fun and challenge."
             reverse
           />
           <FeaturesItem
             image={GetBetter}
-            alt='Get better'
-            title='Get better'
-            text='Set goals with your partner. Get better everyday.'
+            alt="Get better"
+            title="Get better"
+            text="Set goals with your partner. Get better everyday."
           />
         </div>
       </section>

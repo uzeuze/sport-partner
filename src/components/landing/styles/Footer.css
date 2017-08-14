@@ -1,0 +1,61 @@
+.Footer {
+  background-color: #b76e15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.Footer__text {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.Footer__input {
+  height: 50px;
+  width: 400px;
+  border: 0px;
+  outline: none;
+  position: relative;
+  top: 1px;
+  padding-left: 20px;
+}
+
+.Footer__button {
+  height: 50px;
+  width: 100px;
+  background-color: #00a94f;
+  color: #fff;
+  border: 0px;
+  outline: none;
+}
+
+.Footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (max-width: 540px) {
+  .Footer__content {
+    width: 80%;
+  }
+
+  .Footer__text {
+    font-size: 22px;
+  }
+  .Footer__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Footer__input {
+    width: 100%;
+  }
+  .Footer__button {
+    margin-top: 20px;
+    width: 100%;
+  }
+}

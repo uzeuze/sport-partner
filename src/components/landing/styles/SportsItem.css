@@ -1,0 +1,43 @@
+.SportsItem {
+  display: flex;
+  flex: 1;
+  height: 200px;
+  background-size: cover;
+  width: 100%;
+}
+
+.SportsItem__overlay {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.SportsItem__overlay:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.SportsItem__name {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.SportsItem--tennis {
+  background-image: url(../../../assets/hero.jpg);
+}
+
+.SportsItem--jogging {
+  background-image: url(../../../assets/hero.jpg);
+}
+
+.SportsItem--dancing {
+  background-image: url(../../../assets/hero.jpg);
+}
+
+@media all and (max-width: 479px) {
+  .SportsItem__name {
+    font-size: 20px;
+  }
+}

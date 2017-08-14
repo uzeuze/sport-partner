@@ -8,11 +8,16 @@
 }
 
 .TypeWriter__cursor {
-
 }
 
 @keyframes blink-animation {
   50% {
     opacity: 0;
+  }
+}
+
+@media all and (max-width: 479px) {
+  .TypeWriter {
+    font-size: 18px;
   }
 }
