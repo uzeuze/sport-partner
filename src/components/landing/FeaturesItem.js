@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import './styles/FeaturesItem.css';
 
 const FeaturesItem = props => {
@@ -12,10 +12,11 @@ const FeaturesItem = props => {
       <Grid>
         <Row>
           <Col className="FeaturesItem__image_container" xs={12} sm={12} md={6}>
-            <img
+            <Image
               src={props.image}
               className="FeaturesItem__image"
               alt={props.alt}
+              responsive
             />
           </Col>
           <Col xs={12} sm={12} md={6}>

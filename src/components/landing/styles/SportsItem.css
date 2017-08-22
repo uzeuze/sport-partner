@@ -29,11 +29,35 @@
 }
 
 .SportsItem--jogging {
-  background-image: url(../../../assets/hero.jpg);
+  background-image: url(../../../assets/jogging.jpg);
 }
 
 .SportsItem--dancing {
-  background-image: url(../../../assets/hero.jpg);
+  background-image: url(../../../assets/dancing.jpeg);
+}
+
+.SportsItem--skiing {
+  background-image: url(../../../assets/skiing.jpeg);
+}
+
+.SportsItem--cycling {
+  background-image: url(../../../assets/cycling.jpeg);
+}
+
+.SportsItem--kayaking {
+  background-image: url(../../../assets/kayaking.jpg);
+}
+
+.SportsItem--basketball {
+  background-image: url(../../../assets/basketball.jpg);
+}
+
+.SportsItem--golf {
+  background-image: url(../../../assets/golf.jpeg);
+}
+
+.SportsItem--trekking {
+  background-image: url(../../../assets/trekking.jpg);
 }
 
 @media all and (max-width: 479px) {
